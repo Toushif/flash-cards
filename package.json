@@ -1,0 +1,15 @@
+{
+  "name": "flash-cards-js",
+  "version": "1.0.0",
+  "description": "Translation Flash Cards",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "Toushif ul Haque",
+  "license": "MIT",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

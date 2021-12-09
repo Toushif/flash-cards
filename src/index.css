@@ -1,0 +1,60 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 60vw;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-btn-wrapper, .right-btn-wrapper {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.flash-wrapper {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+    flex-basis: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flash {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #222;
+    border-radius: 4px;
+    width: 15rem;
+    height: 22rem;
+    cursor: pointer;
+}
+
+button {
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
